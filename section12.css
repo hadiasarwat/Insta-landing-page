@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container10{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(196, 209, 211);
+    padding: 2em;
+    margin-top: 5em;
+}
+.context10 {
+  
+  padding: 10em;
+}
+.footer img{
+    width: 60em;
+    height: 10em;
+    border-radius: 20px;
+}

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container6{
+    margin-top: 3em;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(1, 1, 43);
+    padding: 2em;
+    color: white;
+}
+.con-text{
+    padding: 4em 2em 2em 1em;
+}
+.con-text h1{
+    font-size: 50px;
+    font-weight: 600;
+    word-spacing: 8px;
+}
+.con-text p , .con-text span{
+    font-size: 20px;
+}
+.con-text b{
+    font-size: 25px;
+}
+iframe{
+    margin-left:-30px ;
+    width: 400px;
+    height: 200px;
+    margin-top: -900px;
+}
+.container6 img{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 35em;
+    margin-top: -23em;
+    cursor: pointer;
+}

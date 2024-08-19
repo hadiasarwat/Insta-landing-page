@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container3{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgba(221, 231, 235, 0.5);
+}
+.logo2{
+     margin: 6em;
+}
+.logo2 img{
+    width: 150px;
+    height: 40px;
+    margin: 6em 0 3em 0em;
+}
+.logo2 h1{
+    font-size: 60px;
+    font-weight:500;
+}
+.logo2 p{
+    font-size: 20px;
+}
+.logo2 b{
+    margin-left: 1em;
+}
+.logo2-1{
+   margin-left:37em;
+   margin-top: -33em;
+   height: 500px;
+   width: 400px;
+}

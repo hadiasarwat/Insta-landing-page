@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Barlow Condensed", sans-serif;
+}
+.mylogo img{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    right: 0;
+    left: 0;
+    top: 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background: #d4d4d4d0;
+}
+nav b{
+    margin-left: 6px;
+    font-size: 25px;
+}
+.mylogo,.btn {
+    display: flex;
+    align-items: center;
+}
+.tab{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-basis: 40%;
+}
+ a {
+    color:black;
+    text-decoration: none;
+}
+button { 
+    border: none;
+    outline: none;
+    cursor: pointer;
+} 
+.end {
+    height: 40px;
+    padding: 1em;
+    color: white;
+    line-height: 9px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: blue;
+    border: blue;
+    margin: 0 10px 0 10px;
+}
+   /* -----------------------------home------------------------- */
+.home {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 88%;
+    grid-template-rows: 90px 400px 90px;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 2em;
+}
+.herosection {
+    display: grid;
+    grid-template-columns: 55% 37%;
+    justify-content: space-between;
+
+}
+.herosection1{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 10%;
+}
+.herosection1 h1{
+    font-size: 40px;
+}
+.herosection1 p {
+    font-size: medium;
+    width: 82%;
+    margin-top: -20px;
+}
+.typebtn{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.typebtn button {
+    border-radius: 0 3px 3px 0;
+}
+.herosection1 input {
+    border-radius: 5px 0px 0px 5px;
+    border: 3px solid rgb(41, 125, 252);
+    height: 40px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    outline: none;
+}
+.line ul{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 0;
+    gap: 55px;
+  }
+
+  .herosection2 {
+    display: flex;
+    justify-content: space-between;
+}
+.images{
+    display: grid;
+    grid-template-rows: 80px 310px;
+}
+.frameup {
+    width: 192px;
+    height: 56px;
+    padding: 3px 39px 3px 2px;
+    display: flex;
+    align-items: center;
+    border-radius: 14px;
+    background:white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.img1 {
+    background: url("./assest/images/dp.png") no-repeat center;
+    background-size: 70%;
+    height: 50px;
+}
+.frameup-text {
+    color: #9CA0AC;
+    font-size: 10px;
+    display: flex;
+    width: 130px;
+}
+.dp {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 4px;
+    border-radius: 8.945px;
+    background: url("./assest/images/profile.png") no-repeat;
+    background-size: cover;
+}
+.dpstatus {
+    display: flex;
+    gap: 4px;
+}
+.dpstatus1 , .dpstatus2 {
+    width: 48%;
+    height: 2px;
+}
+.dpstatus1 {
+    background: #FFF;
+}
+.dpstatus2 {
+    background: rgba(255, 255, 255, 0.50);
+}
+.dplogo , .pumplogo , .avalogo ,.kiwilogo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 42%;
+    margin-top: 4px;
+}
+.dplogo1 , .pumplogo1 , .avalogo1 {
+    width: 26px;
+    height: 26px;
+    border-radius: 8px;
+    background: #000;
+    color: #FFF;
+    font-family: Abril Fatface;
+    font-size: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dplogo2 , .pumplogo2 , .avalogo2{
+    color: #FFF;
+    font-size: 12px;
+}
+.status{
+    color: #D6DAE4;
+    align-self: flex-end;
+    font-size: 12px;
+    margin-top: -20px;
+}
+.insta {
+    padding: 4px 2px 2px 4px;
+    background: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 22.13578224182129px 0px rgba(0, 0, 0, 0.30);
+    width: 55px;
+    margin: 150px 0 0 -35px;
+}
+.insta img {
+    width: 95%;
+}
+/* ------------------------------------------------------ */
+.herosection3{
+    width: 38%;
+}
+.card {
+    height: 180px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 8px 2px 16px 4px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.pump1 {
+    background: url("./assest/images/pumpkin.png") no-repeat center;
+    background-size: cover;
+}
+.card b {
+    font-size: 8.5px;
+}
+.pumplogo , .avalogo , .kiwilogo{
+    width: 82%;
+    font-size: 8.5px;
+}
+.ava1{
+        background: url("./assest/images/avagardo.png") no-repeat center;
+        background-size: cover;
+}
+.kiwi1{
+    background: url("./assest/images/sec6.jpeg") no-repeat center;
+    background-size: cover;
+}
+.icon {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+     /* ----------------------- footerlogos ----------------------- */
+.footerlogos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: medium;
+    text-transform: uppercase;
+    color: #9CA0AC;
+     margin-top: 30px;
+    line-height: 30px;
+     gap: 10px; 
+
+     /* column-gap: 40px; */
+ } 
+ .logolist {
+    font-size: 500px;
+    font-weight: bolder;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 70%;
+    gap: 40px;
+}
+.logolist  img {
+    width: 100px;
+    height: 36px;  
+}
+.nike{
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+}
+
+
+/* --------------------------- Media Quries--------------------- */
+@media only screen and (max-width: 800px){
+    .tab {
+        display: none;
+    }
+    .tab a {
+        padding-bottom: 5px;
+    }
+    .footerlogos {
+        font-size: 12px;
+    }
+    .logolist  {
+        width: 90%;
+    } 
+
+    .logolist  img {
+        width: 50px;
+        height: 30px;
+    }
+    .home {
+
+        height: max-content;
+        /* grid-template-rows: 9% 65% 12%;    */
+        grid-template-rows: 70px 850px 100px;
+        border: 1px solid salmon;
+
+        /* justify-content: center;
+        gap: 5%; */
+    }
+    .herosection1 h1 {
+        font-size: 30px;
+    }
+    .herosection {
+        /* grid-template-columns: 96vw;
+        grid-template-rows: 50%; */
+        /* justify-content: space-between;  */
+     column-gap: 5em;
+     flex-wrap: wrap;
+
+    } 
+    .herosection2 {
+        column-gap: 10px;
+        flex-wrap: wrap;
+        /* width: 50%; */
+        /* justify-content: space-evenly; */
+        /* border: 1px solid rgb(117, 22, 11);  */
+
+    } 
+    .herosection3 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        /* height: 30%; */
+        justify-content: space-around;
+        /* border: 1px solid rgb(117, 22, 11);*/
+        /* align-items: center; */
+        column-gap: 10px;
+    }
+    .card {
+        height: 200px;
+        width: 150px;
+        border-radius: 30px;
+        padding: 12px 2px 16px 4px;
+    
+    } 
+}
+@media (max-width: 650px) {
+    .herosection3{
+        flex-direction: column;
+    }
+    .card {
+        height: 180px;
+        width: 120px;
+        border-radius: 30px;
+        padding: 12px 2px 16px 4px;
+    }
+    .herosection1 h1 {
+        font-size: 25px;
+    }
+    .logolist .smImg {
+        width: 28px;
+    }
+    }
+    @media (max-width: 500px) {
+        .end{
+            display: none;
+            
+        }
+     .visible{
+       display: inline;
+    
+    }
+        .btn a {
+            margin-right: 10px;
+        } 
+        .herosection1 h1 {
+            font-size: 20px;
+        }
+        .logolist .smImg {
+            width: 25px;
+        }
+        .line {
+         width: 95%;
+        }
+        .images{
+            grid-template-columns: 150px;
+        }
+        /* .pump1{
+            margin-bottom: -110px;
+        }
+        .ava1{
+            margin-bottom: -40px;
+        } */
+        .insta{
+            width: 38px;
+            margin: 150px 0 0 -18px;
+        }
+        .logolist , .footerlogos>p{
+            width: 98vw;
+            justify-items:center ;
+        }
+        
+        .logolist img{
+            width: 40px;
+        }
+        .line{
+            font-size: smaller;
+        }
+    }
+    @media (max-width: 450px){
+        .line{
+            font-size: smaller;
+        }
+        .end{
+            line-height: 10px;
+        }
+    }
